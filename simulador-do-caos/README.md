@@ -43,6 +43,10 @@ To reduce the attack surface and ensure the application uses the most secure con
 
 By combining **Docker Scout Quickview** and **Docker Scout Recommendations**, the container image was validated and hardened, ensuring a **reduced vulnerability profile** and alignment with Docker security best practices.
 
+![Alt text](simulador-do-caos/images/Vulnerabilities_before.png)
+
+![Alt text](simulador-do-caos/images/Vulnerabilities_after.png)
+
 
 
 
