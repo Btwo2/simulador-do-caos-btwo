@@ -1,8 +1,9 @@
-FROM node:25-slim 
+FROM node:25-slim
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
-RUN apt update && apt install stress --yes
+RUN npm install -g npm@latest
+# RUN apt update && apt install stress --yes
 COPY . .
 RUN npm run compile
 EXPOSE 3000
